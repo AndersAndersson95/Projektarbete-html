@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3742fa;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 19px 66px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    background-color: #70a1ff;
+}
+
+table {
+    width: 100%;
+}
+
+td, th {
+    text-align: center;
+}
+
+#sida-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
